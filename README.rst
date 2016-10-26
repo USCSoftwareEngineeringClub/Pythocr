@@ -10,7 +10,7 @@ Overview
 This project intends to accomplish the following goals
 
   * Ability to recognize handwritten numbers and arithmetic operators
-    (``+``,``-``,``/``,``*``, ``=``) in real-time from a video feed
+    (``+``, ``-``, ``/``, ``*``, ``=``) in real-time from a video feed
   * Arithmetic expressions are parsed by the software into a plain-text format
   * The expression is sent to WolframAlpha (api?) 
   * The result is displayed on the screen
@@ -41,3 +41,20 @@ Roadmap
         any API call
 
     - Parse results and convert to alternate format? 
+
+Tooling
+=======
+  
++----------------------------------------------------------------+------------------------------+
+| Tool                                                           | Function                     |
++================================================================+==============================+
+| Python 3.X                                                     | implementation language      |
++----------------------------------------------------------------+------------------------------+
+| scikit                                                         | edge detection               |
++----------------------------------------------------------------+------------------------------+
+| numpy                                                          | general purpose math library |
++----------------------------------------------------------------+------------------------------+
+| `umlet <http://www.umlet.com/>`_                               | diagramming                  |
++----------------------------------------------------------------+------------------------------+
+| `reStructuredText <http://docutils.sourceforge.net/rst.html>`_ | documentation language       |
++----------------------------------------------------------------+------------------------------+
