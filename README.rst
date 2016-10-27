@@ -59,3 +59,8 @@ Tooling
 | `reStructuredText <http://docutils.sourceforge.net/rst.html>`_ | documentation language       |
 +----------------------------------------------------------------+------------------------------+
 
+
+Resources
+=========
+
+* `scikit-image canny edge detection example <http://scikit-image.org/docs/dev/auto_examples/plot_canny.html>`_
