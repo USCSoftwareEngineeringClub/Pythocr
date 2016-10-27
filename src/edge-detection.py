@@ -4,11 +4,13 @@ from scipy import ndimage as ndi
 
 from skimage import feature
 import skimage.external.tifffile
+import skimage.color
 import sys
 
 
 # Generate noisy image of a square
 im = skimage.external.tifffile.imread(sys.argv[1])
+im = skimage.color.rgb2grey(im)
 print(im)
 print(type(im))
 print(im.shape)
